@@ -1,0 +1,50 @@
+> React
+  - Biblioteca para facilitar o trabalho com HTML e CSS
+  - Utiliza de Setups para acelerar a criação do projeto
+  - Create React App é um setup disponivel
+  > Vite:
+    - Vite é outro setup, segundo o professor é melhor
+    { npm create vite@latest
+  - Index.html é a base que vai ser rodada no projeto
+  > React é SPA, Single Page Aplication:
+    - Utiliza o JS para trocar o conteúdo de dentro de uma div
+    - ReactDOM: Permite navegar e manipular entre os elementos da página
+  > Regras
+    - Todo componente começa com a letra maiúscula
+    - Um componente retorna no máximo UM elemento
+    - Cada página recebe um arquivo de estilização separado
+  > Componentização:
+    - Podem ser reutilizados evitando trabalho desnecessário
+    - Podem possuir propriedades que quando alteradas mudem a forma do componente
+    - Nas propriedades pode colocar ...rest para todas as propriedades que forem passadas e você não listou na função
+  > React-Icons:
+    - Biblioteca para capturar icones
+    { npm install react-icons --save
+    - Pagina: https://react-icons.github.io/react-icons/
+
+> CSS
+  - Evoluiu muito desde o seu lançamento e continua evoluindo
+  - Está atualmente na versão 3
+  > Pré Processadores:
+    - Um CSS pré processado quer dizer que você não vai utilizar esse arquivo na produção. Na verdade, ele será processado para utilização final no CSS da sua aplicação
+    - Facilita a manutenção do código, ajuda a escrever um código mais limpo e organizado utilizando vários arquivos para separar os códigos e realizando a importação quando for necessário tornando os códigos CSS mais flexíveis e reutilizáveis
+    - Minificação de arquivos: Todo o CSS fica em uma linha apenas, tornando o arquivo mais leve
+    - O CSS ainda possui muitos desafios, como a colisão de estilos e os elementos aninhandos que impactam na perfomance pois são mais lentos para carregar e o CSS sozinho não possui mecanismos para evitar que isso aconteça
+    - CSS-in-JS: Aproveitam métodos atuais de componentização em JavaScript para criar componentes performáticos a prova de colisão, é tudo extremamente automatizado
+  > Styled Components: 
+    - Foi desenvolvido para melhorar a maneira que lidamos com CSS nos componentes de aplicações React
+    - Utiliza CSS-in-JS
+    - Vantagens: 
+      - Sem colisão de classes
+      - Melhora o desempenho
+      - Estilo dinâmico
+      - Manutenção sem dor 
+      - Boas práticas
+    { npm install --save styled-components
+
+> Arrow-Functions:
+  - Toda arrow function é uma função anônima
+  - É auto executada e retorna para uma constante
+
+> Map:
+  - Função que percorre todos os intens que pertencerem a uma lista
