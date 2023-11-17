@@ -21,6 +21,10 @@
     - Biblioteca para capturar icones
     { npm install react-icons --save
     - Pagina: https://react-icons.github.io/react-icons/
+  > React Router DOM:
+    - Permite o gerenciamento de rotas da aplicação
+    { npm install react-router-dom
+    - É interessante separar as rotas do app das rotas de autenticação, assim garante que o usuário só pode utilizar o app se estiver autenticado
 
 > CSS
   - Evoluiu muito desde o seu lançamento e continua evoluindo
